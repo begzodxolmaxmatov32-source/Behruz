@@ -2,7 +2,8 @@
   "name": "KinoApp",
   "version": "1.0.0",
   "description": "Kino va seriallar tomosha qilish uchun mobil ilova",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "App.tsx"
+
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
