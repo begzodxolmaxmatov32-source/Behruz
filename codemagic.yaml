@@ -10,8 +10,6 @@ workflows:
         script: npm install
       - name: Expo Prebuild
         script: npx expo prebuild --platform android --clean
-      - name: Build JS Bundle with Expo
-        script: npx expo export --platform android
       - name: Build Android APK
         script: |
           cd android
