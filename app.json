@@ -1,22 +1,29 @@
 {
   "expo": {
     "name": "KinoApp",
-    "slug": "daha-17",
-    "owner": "behruz2010s-team",
+    "slug": "kinoapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.kinoapp.app"
+      "supportsTablet": true
     },
     "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
       "package": "com.kinoapp.app"
     },
-    "extra": {
-      "eas": {
-        "projectId": "e3bc0ba6-12be-4e09-b633-b9cfcb90bec3"
-      }
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
