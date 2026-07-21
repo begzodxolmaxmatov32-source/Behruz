@@ -5,14 +5,11 @@ workflows:
     instance_type: mac_mini_m1
     environment:
       node: 20
-      android_sdk: 33
     scripts:
       - name: Install dependencies
-        script: |
-          npm install
+        script: npm install
       - name: Prebuild Expo Native Project
-        script: |
-          npx expo prebuild --platform android
+        script: npx expo prebuild --platform android
       - name: Build Android APK
         script: |
           cd android
