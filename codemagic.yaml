@@ -8,9 +8,7 @@ workflows:
     scripts:
       - name: Install dependencies
         script: npm install
-      - name: Export Expo Bundle
-        script: npx expo export --platform android
-      - name: Prebuild Native Project
+      - name: Prebuild Native Android Project
         script: npx expo prebuild --platform android --clean
       - name: Build Android APK
         script: |
