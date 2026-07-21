@@ -3,6 +3,10 @@
     "version": ">= 7.0.0"
   },
   "build": {
-    "production": {}
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
   }
 }
